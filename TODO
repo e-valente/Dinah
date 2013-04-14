@@ -1,0 +1,31 @@
+TODO
+====
+
+Insert.java			Ativar o uso de comandos SQL
+				para inserir dados no .dat
+
+Select.java			Ativar o uso de comandos SQL
+				para selecionados dados no .dat
+
+SQL Commands
+============
+
+select							OK
+insert							QUASE
+update							QUASE
+delete							OK
+
+create database						OK
+create table (unique, references, primary key, ...)	OK
+create index						OK
+create user						OK
+
+drop database						OK
+drop table						OK
+drop index						OK
+drop user						OK
+
+grant							OK
+connect to						OK
+show all						OK
+
