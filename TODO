@@ -1,11 +1,36 @@
-TODO
-====
+SITE COM O CÓDIGO
+=================
 
-Insert.java			Ativar o uso de comandos SQL
-				para inserir dados no .dat
+https://github.com/jeanleonino/Dinah
 
-Select.java			Ativar o uso de comandos SQL
-				para selecionados dados no .dat
+1) Somente fazer commit (upload) de código fonte ou arquivo texto.
+
+2) Para fazer download do código:
+
+	git clone https://github.com/jeanleonino/Dinah
+
+TODO LIST
+=========
+
+1) Implementar todos os comandos SQL (Structured Query Language)
+que estão definidos em dinah/sql/*.java
+
+Insert
+Delete
+...
+
+2) dinah/data/DataFile
+	
+	- implementar remoção de registros do arquivo de dados
+	- implementar o defrag (produzir arquivo de saída somente
+	com os registros que devem ser mantidos e regerar arquivos
+	de índices relacionados ao arquivo de dados)
+
+3) dinah/data/*.java
+	
+	- Implementar geração do arquivo de índice
+	- Busca binária no IDX
+	- Busca usando BTree no IDX
 
 SQL Commands
 ============
