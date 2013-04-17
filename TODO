@@ -3,11 +3,36 @@ SITE COM O CÓDIGO
 
 https://github.com/jeanleonino/Dinah
 
+0) Help do github:
+
+	http://help.github.com
+
 1) Somente fazer commit (upload) de código fonte ou arquivo texto.
 
 2) Para fazer download do código:
 
 	git clone https://github.com/jeanleonino/Dinah
+
+3) Para avisar que um arquivo foi alterado:
+
+	Estando no diretório Dinah digito:
+
+	git add TODO
+	git add src/dinah/sql/Insert.java
+
+4) Avisar para o servidor do GitHub quem sou eu:
+
+	git config --global user.email myself@gmail.com
+	git config --global user.name "My name goes here"
+
+5) Para colocar uma mensagem relativa às alterações feitas por você:
+
+	git commit -m "new TODO list"
+
+6) Para gravar no servidor:
+
+	git push origin master
+
 
 TODO LIST
 =========
